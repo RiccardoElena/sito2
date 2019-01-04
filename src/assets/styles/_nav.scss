@@ -1,0 +1,18 @@
+.main-nav {
+  display: flex;
+}
+
+.main-nav li {
+  line-height: 48px;
+}
+
+.main-nav li a {
+  height: 48px;
+  padding: 14.5px 20px;
+  text-transform: uppercase;
+}
+
+.main-nav li a:hover {
+  color: $white;
+  background-color: $orange;
+}

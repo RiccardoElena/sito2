@@ -1,0 +1,36 @@
+/* footer */
+footer {
+  color: $white;
+  height: 100%;
+  background-color: $blue;
+
+  h4 {
+    font-weight: normal;
+  }
+
+  ul a {
+    color: $white;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.footer-copyright {
+  border-top: 1px solid $orange;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-col-left {
+  width: 30%;
+}
+
+.footer-col-right {
+  width: calc(70% - 30px);
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}

@@ -1,0 +1,57 @@
+/* article */
+article {
+  width: calc(70% - 30px);
+  margin-left: 30px;
+  flex-wrap: initial;
+
+  h2 {
+    border-bottom: 2px solid $grey;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 13px;
+    font-weight: normal ;
+  }
+
+  table {
+    width: calc(50% - 10px);
+    float: left;
+    margin: 0 20px 20px 0;
+
+    &:nth-child(odd){
+      margin-right: 0;
+    }
+
+    &.icon-person,
+    &.icon-cab,
+    &.icon-motorcycle {
+      color: #008000;
+    }
+
+    tr {
+      border-right: 1px solid;
+    }
+
+    td {
+      padding: 6px;
+    }
+
+    thead {
+      background-color: $orange;
+      border: 0;
+      color: $white;
+      text-transform: uppercase;
+      padding: 4px;
+      font-size: 14px;
+    }
+
+    tbody tr {
+      &:nth-child(even) {
+        background-color: #ececec;
+      }
+
+      &:nth-child(odd) {
+        background-color: #f8f8f8;
+      }
+    }
+  }
+  }
